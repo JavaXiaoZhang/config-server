@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+spring:
+  rabbitmq:
+    host: 134.175.100.149
+    virtual-host: /OFzs
+    username: ls
+    password: 123
